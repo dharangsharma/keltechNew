@@ -374,7 +374,7 @@ a.button-style {
 /* news */
 
 .news {
-    background: url(../images/15.jpg) no-repeat center fixed;
+    background: url(../images/Building-blue-2.jpg) no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -421,7 +421,7 @@ a.button-style {
 /*-- middle --*/
 
 .middle-w3l {
-    background: url(../images/bg1.jpg) no-repeat center fixed;
+    background: url(../images/Building-blue-2.jpg) no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1227,7 +1227,10 @@ li.subitem1 p {
         font-size: 12px;
     }
     .navbar {
-        padding: 1em 1.5em;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     .w3l-slide-text p {
         font-size: 13px;
@@ -1532,6 +1535,7 @@ li.subitem1 p {
     }
     h3.what-title {
         font-size: 28px;
+        text-align: center;
     }
 }
 
@@ -1714,7 +1718,13 @@ li.subitem1 p {
 @media only screen and (max-width: 600px) {
     .w-100 {
         width: 100% !important;
-        height: 40vh;
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .address-info .p-5 {
+        margin-top: 25px !important;
     }
 }
 
