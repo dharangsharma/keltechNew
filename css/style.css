@@ -1313,7 +1313,7 @@ li.subitem1 p {
         border-radius: 0px;
     }
     div#navbarNavAltMarkup {
-        background: rgba(0, 0, 0, 0.81);
+        /* background: rgba(63, 62, 62, 0.81); */
         text-align: center;
         padding: 1em 0;
     }
@@ -1725,6 +1725,25 @@ li.subitem1 p {
 @media only screen and (max-width: 600px) {
     .address-info .p-5 {
         margin-top: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-right {
+        margin-left: 0;
+        font-family: 'Oswald', sans-serif !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .ch-grid {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #phone-box {
+        margin-top: 20px;
     }
 }
 
